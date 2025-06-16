@@ -122,8 +122,8 @@ section ul li {
   color: #475569;
 }
 
-/* Logos des expériences */
-.cnp, .naolib, .bondici, .Aquariaz, .Leclerc, .armee {
+/* Logos */
+.cnp, .naolib, .bondici, .Aquariaz, .Leclerc, .armee, .echo, .magicbazaar {
   width: 60px;
   height: 60px;
   object-fit: contain;
@@ -133,9 +133,29 @@ section ul li {
   transition: transform 0.3s ease;
 }
 
-.cnp:hover, .naolib:hover, .bondici:hover, .Aquariaz:hover, .Leclerc:hover, .armee:hover {
+.cnp:hover, .naolib:hover, .bondici:hover, .Aquariaz:hover, .Leclerc:hover, .armee:hover, .echo:hover, .magicbazaar:hover {
   transform: scale(1.1);
 }
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #24292e;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  margin-top: 12px;
+}
+
+.github-link:hover {
+  color: #0366d6;
+}
+
+.github-icon {
+  vertical-align: middle;
+}
+
 
 /* Footer */
 footer {
